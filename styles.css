@@ -1,184 +1,83 @@
-/* Reset and Basic Styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f3f4f6;
+    background-color: #f5f7fa;
     color: #333;
     line-height: 1.6;
-    overflow-x: hidden;
 }
-
-/* Header Styling */
 header.hero {
-    background: linear-gradient(120deg, #007acc, #00d4ff);
-    color: #ffffff;
+    background-color: #007acc;
+    color: white;
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 2rem;
 }
-
 header h1 {
-    font-size: 2.8rem;
-    font-weight: 700;
+    font-size: 2.5rem;
     margin-bottom: 0.5rem;
 }
-
 header p {
     font-size: 1.2rem;
-    font-weight: 300;
 }
-
 header .contact-info a {
-    color: #ffffff;
-    margin: 0 10px;
+    color: #fff;
+    margin: 0 5px;
     text-decoration: none;
-    padding: 0.5rem;
-    font-weight: 500;
-    border-radius: 5px;
-    transition: background 0.3s;
 }
-
 header .contact-info a:hover {
-    background: rgba(255, 255, 255, 0.2);
+    text-decoration: underline;
 }
-
-/* Navigation Bar Styling */
 nav {
     background: #333;
     padding: 1rem;
     text-align: center;
 }
-
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
-
 nav ul li {
     margin: 0 1rem;
 }
-
 nav ul li a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.3s;
 }
-
 nav ul li a:hover {
-    color: #00d4ff;
+    color: #007acc;
 }
-
-/* Main Content Styling */
 main {
     max-width: 900px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
-
-/* Card Styling */
 .card {
-    background: #ffffff;
+    background: #fff;
     padding: 1.5rem;
     margin-bottom: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
 }
-
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
 }
-
-/* Section Headers */
 h2 {
     color: #007acc;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-    border-bottom: 3px solid #00d4ff;
+    border-bottom: 2px solid #007acc;
     padding-bottom: 0.3rem;
-}
-
-/* Experience and Project Items */
-.experience-item, .project-item {
     margin-bottom: 1rem;
 }
-
-.experience-item h3, .project-item h3 {
-    color: #007acc;
-    font-size: 1.2rem;
-    margin-bottom: 0.3rem;
-}
-
-.experience-item span, .project-item span {
-    color: #555;
-    font-size: 0.9rem;
-    font-weight: 300;
-}
-
-/* Skills Section Styling */
-#skills p {
-    color: #444;
-    font-size: 1rem;
-    margin: 0.5rem 0;
-}
-
-/* Links Styling */
-a {
-    color: #00bfff;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: #007acc;
-}
-
-/* Footer Styling */
 footer {
     background-color: #333;
-    color: #ffffff;
+    color: #fff;
     text-align: center;
-    padding: 1.5rem;
-    margin-top: 3rem;
+    padding: 1rem;
+    margin-top: 2rem;
     font-size: 0.9rem;
-}
-
-footer p {
-    margin-bottom: 0;
-    font-weight: 300;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
-
-    header p {
-        font-size: 1rem;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin: 0.5rem 0;
-    }
-
-    h2 {
-        font-size: 1.6rem;
-    }
-
-    .card {
-        padding: 1rem;
-    }
 }
