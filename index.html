@@ -48,6 +48,8 @@
         <img src="https://github.com/Girish-Parashar/Girish-Parashar.github.io/raw/main/Girish.jpg" alt="Girish Parashar" class="w-40 h-40 rounded-full mx-auto border-4 border-white shadow-lg">
         <h1 class="text-4xl font-bold mt-4">Girish Parashar</h1>
         <p class="text-xl mt-2">Data Analyst | AI Enthusiast | Problem Solver</p>
+
+        <div id="view-count" class="text-sm text-gray-400 mt-4">Views: 0</div>
         
         <a href="#contact" class="bg-blue-500 text-white px-6 py-2 mt-6 inline-block rounded hover:bg-blue-600 transition">Get in Touch</a>
 
@@ -62,6 +64,20 @@
         </div>
     </div>
 </section>
+
+<script>
+    // Check if 'views' exists in localStorage
+    if (!localStorage.getItem('views')) {
+        localStorage.setItem('views', 1); // First visit
+    } else {
+        let views = parseInt(localStorage.getItem('views')) + 1;
+        localStorage.setItem('views', views); // Increment view count
+    }
+
+    // Display the view count
+    document.getElementById('view-count').textContent = 'Views: ' + localStorage.getItem('views');
+</script>
+
 
 
 
