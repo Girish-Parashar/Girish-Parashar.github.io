@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Girish Parashar - Portfolio</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Particle.js background -->
+    <div id="particles-js"></div>
+
+    <!-- Header / Introduction -->
+    <!-- Introduction Section -->
+<section id="introduction" class="flex flex-col items-center justify-center h-screen bg-gray-800 text-white relative">
+    <div id="particles-js" class="absolute top-0 left-0 w-full h-full"></div>
+    <div class="relative z-10 text-center">
+        <img src="https://github.com/Girish-Parashar/Girish-Parashar.github.io/raw/main/Girish.jpg" alt="Girish Parashar" class="w-40 h-40 rounded-full mx-auto border-4 border-white shadow-lg">
+        <h1 class="text-4xl font-bold mt-4">Girish Parashar</h1>
+        <p class="text-xl mt-2">Data Analyst | AI Enthusiast | Problem Solver</p>
+        <a href="#contact" class="bg-blue-500 text-white px-6 py-2 mt-6 inline-block rounded hover:bg-blue-600 transition">Get in Touch</a>
+    </div>
+</section>
+
+
+    <!-- About Me -->
+    <section id="about" class="py-16 bg-gray-800 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6">About Me</h2>
+            <p class="max-w-4xl mx-auto text-lg">I am a data analyst with a strong background in statistical analysis and machine learning. With a passion for AI, I have helped companies optimize their operations by delivering actionable insights. When not working, you can find me exploring the latest AI innovations or hiking in nature.</p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="py-16 bg-gray-900">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">Experience</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Experience 1 -->
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold">Data Analyst - Almabetter</h3>
+                    <p class="text-sm text-gray-400">June 2022 - Present</p>
+                    <p class="mt-4">Led data-driven initiatives to optimize internal processes and enhance business insights, delivering high-impact reports and dashboards for decision-making.</p>
+                </div>
+                <!-- Experience 2 -->
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold">AI Intern - TechLabs</h3>
+                    <p class="text-sm text-gray-400">Jan 2021 - May 2022</p>
+                    <p class="mt-4">Developed predictive models to forecast market trends, working alongside a dynamic team to integrate AI solutions into client projects, improving efficiency and decision accuracy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-16 bg-gray-800 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Project 1 -->
+                <div class="bg-gray-900 p-6 rounded-lg">
+                    <img src="project1.jpg" alt="Project 1" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-bold">Market Prediction Model</h3>
+                    <p class="text-sm text-gray-400">A predictive model built using Python to forecast market trends, increasing business strategy effectiveness by 20%.</p>
+                    <a href="https://github.com/GirishP/market-prediction" class="text-blue-500 hover:underline">View on GitHub</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-gray-900 p-6 rounded-lg">
+                    <img src="project2.jpg" alt="Project 2" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-bold">Customer Segmentation</h3>
+                    <p class="text-sm text-gray-400">Used clustering algorithms to segment customers, enabling personalized marketing strategies for better customer retention.</p>
+                    <a href="https://github.com/GirishP/customer-segmentation" class="text-blue-500 hover:underline">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-16 bg-gray-900 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="text-center">
+                    <i class="fab fa-python text-6xl text-yellow-500"></i>
+                    <p class="mt-2">Python</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-database text-6xl text-blue-500"></i>
+                    <p class="mt-2">SQL</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-chart-line text-6xl text-green-500"></i>
+                    <p class="mt-2">Data Analysis</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-brain text-6xl text-purple-500"></i>
+                    <p class="mt-2">Machine Learning</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="py-16 bg-gray-800 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Education</h2>
+            <p class="text-lg">Bachelor's in Computer Science, Delhi University, 2018 - 2022</p>
+        </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section id="contact" class="py-16 bg-gray-900 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+            <form class="max-w-md mx-auto">
+                <div class="mb-4">
+                    <input type="text" placeholder="Your Name" class="w-full p-3 rounded-lg bg-gray-800 text-white focus:outline-none">
+                </div>
+                <div class="mb-4">
+                    <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg bg-gray-800 text-white focus:outline-none">
+                </div>
+                <div class="mb-4">
+                    <textarea placeholder="Your Message" class="w-full p-3 rounded-lg bg-gray-800 text-white focus:outline-none" rows="5"></textarea>
+                </div>
+                <button class="px-6 py-3 bg-blue-600 rounded-full hover:bg-blue-700">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-gray-800 text-center">
+        <p>&copy; 2024 Girish Parashar. All rights reserved.</p>
+        <div class="mt-4">
+            <a href="https://www.linkedin.com/in/girishparashar" class="text-blue-500 mx-2 hover:underline">LinkedIn</a>
+            <a href="https://github.com/GirishP" class="text-blue-500 mx-2 hover:underline">GitHub</a>
+        </div>
+    </footer>
+
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+
+</body>
+</html>
